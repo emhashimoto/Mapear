@@ -262,6 +262,23 @@ utf <- leaflet() %>%
 utf 
 ```
 
+### FUNTEF
+
+
+```{r}
+# Initialize and assign m as the leaflet object
+utf <- leaflet() %>%
+  # Now add tiles to it
+  addTiles() %>%  
+  # Setting the middle of where the map should be and the zoom level
+  setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
+  # Now, add a marker with a popup, 
+  addMarkers(lng=-51.114540, lat=-23.3075632, 
+             popup="<b>FUNTEF</b>
+             <br><a href='fotos-A/segundo/FUNTEF.jpg'>-Sala205</a>")
+
+utf 
+```
 
 
 ### DIRPLAD, DEMAP, DEOFI e DEPRO
@@ -302,23 +319,6 @@ utf
 ```
 
 
-### FUNTEF
-
-
-```{r}
-# Initialize and assign m as the leaflet object
-utf <- leaflet() %>%
-  # Now add tiles to it
-  addTiles() %>%  
-  # Setting the middle of where the map should be and the zoom level
-  setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
-             popup="<b>FUNTEF</b>
-             <br><a href='fotos-A/segundo/FUNTEF.jpg'>-Sala205</a>")
-
-utf 
-```
 
 
 
