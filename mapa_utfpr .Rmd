@@ -170,6 +170,24 @@ utf
 ## 2°andar
 
 
+```{r}
+# Initialize and assign m as the leaflet object
+utf <- leaflet() %>%
+  # Now add tiles to it
+  addTiles() %>%  
+  # Setting the middle of where the map should be and the zoom level
+  setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
+  # Now, add a marker with a popup, 
+  addMarkers(lng=-51.114540, lat=-23.3075632, 
+             popup="<b>PPGATL</b>
+             <br><a href='fotos-A/segundo/PPGTAL.jpg'>-Sala201</a>")
+
+utf 
+```
+
+
+
+
 ### Data center
 
 
@@ -325,22 +343,6 @@ utf
 
 
 ### PPGTAL
-
-
-```{r}
-# Initialize and assign m as the leaflet object
-utf <- leaflet() %>%
-  # Now add tiles to it
-  addTiles() %>%  
-  # Setting the middle of where the map should be and the zoom level
-  setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
-             popup="<b>PPGATL</b>
-             <br><a href='fotos-A/segundo/PPGTAL.jpg'>-Sala201</a>")
-
-utf 
-```
 
 
 
