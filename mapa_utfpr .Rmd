@@ -1,0 +1,46 @@
+---
+title: "PROJETO MAPEAR"
+subtitle: "Orientação e Integração para Estudantes"
+author: "Kauany Allanis Alves"
+date: ""
+output:
+  rmdformats::readthedown:
+  highlight: pygments
+  thumbnails: false
+  lightbox: false
+  self_contained: false
+---
+  
+  
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE,
+	comment = NA
+)
+```
+
+```{r}
+# pacotes
+library(leaflet)
+library(dplyr)
+```
+
+<!--# seção-->
+# BLOCO A
+  
+<!--# Sub-seção-->
+## Térreo
+  
+  
+
+<!--# Sub-seção-->
+### Laboratório de Panificação &#127838;
+  
+<!--# mapa-->
+
