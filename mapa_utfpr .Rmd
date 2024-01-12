@@ -10,8 +10,8 @@ output:
   lightbox: false
   self_contained: false
 ---
-  
-  
+
+
 ```{r setup, include=FALSE}
 library(knitr)
 library(rmdformats)
@@ -35,33 +35,33 @@ library(dplyr)
 ```
 
 <!--# seção-->
-# BLOCO A
-  
+# BLOCO A - teste
+
 <!--# Sub-seção-->
 ## Térreo
-  
-  
+
+
 
 <!--# Sub-seção-->
 ### Laboratório de Panificação &#127838;
-  
+
 <!--# mapa-->
 ```{r}
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Laboratório de Panificação</b>
              <br><a href='fotos-A/terreo/lab_panif.jpg'>-lab001</a>")
 
-utf 
+utf
 ```
 
-  
+
 
 ### Laboratório de Bebidas e Vegetais &#129380;
 
@@ -69,19 +69,19 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Laboratório de Bebidas e Vegetais</b>
              <br><a href='fotos-A/terreo/lab_bebidas_vegetais.jpg'>-lab002</a>")
 
-utf 
+utf
 ```
-  
+
 ### Laboratório de Laticíneos &#129472;
-  
+
 - Responsável: XXX XXXXX
 
 <!--# mapa-->
@@ -89,15 +89,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Laboratório de Laticíneos</b>
              <br><b>dldldldldl &#129371;</b><br><a href='fotos-A/terreo/lab_lat.jpg'>-lab003</a><br><a href='http://www.utfpr.edu.br/'>-UTFPR</a>")
 
-utf 
+utf
 ```
 
 
@@ -111,15 +111,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Laboratório de Carnes</b>
              <br><a href='fotos-A/terreo/lab_carnes.jpg'>-lab004</a>")
 
-utf 
+utf
 ```
 
 
@@ -136,15 +136,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>DIRPPG</b>
              <br><a href='fotos-A/primeiro/dirppg.jpg'>-Sala101</a>")
 
-utf 
+utf
 ```
 
 ### Salas de aula
@@ -155,15 +155,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Salas</b>
              <br><a href='fotos-A/primeiro/salas_aula.jpg'>-Salas</a>")
 
-utf 
+utf
 ```
 
 
@@ -174,15 +174,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>PPGATL</b>
              <br><a href='fotos-A/segundo/PPGTAL.jpg'>-Sala201</a>")
 
-utf 
+utf
 ```
 
 
@@ -195,34 +195,34 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Data center</b>
              <br><a href='fotos-A/segundo/Data Center.jpg'>-Sala202</a>")
 
-utf 
+utf
 ```
 
 ### COGERH
 
--Cordenadoria de Gestão de Recursos Humanos 
+-Cordenadoria de Gestão de Recursos Humanos
 
 ```{r}
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>COGERH</b>
              <br><a href='fotos-A/segundo/COGERH.jpg'>-Sala204</a>")
 
-utf 
+utf
 ```
 
 
@@ -232,15 +232,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>COGETI</b>
              <br><a href='fotos-A/segundo/COGETI.jpg'>-Sala20?</a>")
 
-utf 
+utf
 ```
 
 
@@ -251,15 +251,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>DESEG</b>
              <br><a href='fotos-A/segundo/DESEG.jpg'>-Sala20?</a>")
 
-utf 
+utf
 ```
 
 ### FUNTEF
@@ -269,15 +269,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>FUNTEF</b>
              <br><a href='fotos-A/segundo/FUNTEF.jpg'>-Sala205</a>")
 
-utf 
+utf
 ```
 
 
@@ -288,15 +288,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>DIRPLAD, DEMAP, DEOFI e DEPRO</b>
              <br><a href='fotos-A/segundo/DIRPLAD_DEMAP_DEOFI_DEPRO.jpg'>-Sala206</a>")
 
-utf 
+utf
 ```
 
 
@@ -307,15 +307,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Fragmentadora de papel</b>
              <br><a href='fotos-A/segundo/frag-papel.jpg'>-Sala20?</a>")
 
-utf 
+utf
 ```
 
 
@@ -329,15 +329,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>GADIR e DIRGE</b>
              <br><a href='fotos-A/segundo/GADIR_DIRGE.jpg'>-Sala209</a>")
 
-utf 
+utf
 ```
 
 
@@ -353,15 +353,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de reuniões</b>
              <br><a href='fotos-A/segundo/Sala_reunioes.jpg'>-Sala208</a>")
 
-utf 
+utf
 ```
 
 
@@ -374,15 +374,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de apoio</b>
              <br><a href='fotos-A/terceiro/sala_apoio_a301.jpg'>-Sala301</a>")
 
-utf 
+utf
 ```
 
 
@@ -394,15 +394,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Laboratório de biologia e ecologia</b>
              <br><a href='fotos-A/terceiro/lab_biologia_ecologia.jpg'>-Sala308</a>")
 
-utf 
+utf
 ```
 
 
@@ -412,15 +412,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Laboratório de bioquimica</b>
              <br><a href='fotos-A/terceiro/lab_biioquimica.jpg'>-Sala306</a>")
 
-utf 
+utf
 ```
 
 
@@ -431,15 +431,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Laboratório de métodos instrumentais</b>
              <br><a href='fotos-A/terceiro/lab_met_instrumentais.jpg'>-Sala304</a>")
 
-utf 
+utf
 ```
 
 
@@ -449,33 +449,33 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Laboratório de microbiologia</b>
              <br><a href='fotos-A/terceiro/lab_microbiologia.jpg'>-Sala305</a>")
 
-utf 
+utf
 ```
 
 
 ### Laboratório de análise sesorial
- 
+
 ```{r}
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Laboratório de análise sensorial</b>
              <br><a href='fotos-A/terceiro/lab_analise_sensorial.jpg'>-Sala302</a>")
 
-utf 
+utf
 ```
 
 
@@ -491,15 +491,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Laboratório de polimeros</b>
              <br><a href='fotos-B/terreo/lab_polimeros.jpg'>-Sala001</a>")
 
-utf 
+utf
 ```
 
 ### Laboratório de ensaios
@@ -508,15 +508,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Laboratório de ensaios</b>
              <br><a href='fotos-B/terreo/lab_polimeros.jpg'>-Sala006</a>")
 
-utf 
+utf
 ```
 
 
@@ -526,15 +526,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Laboratório de cerâmica</b>
              <br><a href='fotos-B/terreo/lab_ceramica.jpg'>-Sala002</a>")
 
-utf 
+utf
 ```
 
 
@@ -544,15 +544,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Laboratório de análise de materiais</b>
              <br><a href='fotos-B/terreo/lab_analise.jpg'>-Sala004</a>")
 
-utf 
+utf
 ```
 
 ### Laboratório de apoio
@@ -561,15 +561,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Laboratório de apoio</b>
              <br><a href='fotos-B/terreo/lab_apoio.jpg'>-Sala003</a>")
 
-utf 
+utf
 ```
 
 
@@ -579,35 +579,35 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Laboratório de metais</b>
              <br><a href='fotos-B/terreo/lab_metais.jpg'>-Sala005</a>")
 
-utf 
+utf
 ```
 
 
-## 1° andar 
+## 1° andar
 
-### Auditório 
+### Auditório
 
 ```{r}
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Auditório</b>
              <br><a href='fotos-B/primeiro/auditorio.jpg'>-Sala101</a>")
 
-utf 
+utf
 ```
 
 ### Sala de professores
@@ -616,15 +616,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Sala de professores</b>
              <br><a href='fotos-B/primeiro/sala_prof_b1.jpg'>-Sala105</a>")
 
-utf 
+utf
 ```
 
 ### Cordenação, DIRGRAD e SEGEA
@@ -633,15 +633,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Cordenação, DIRGRAD e SEGEA</b>
              <br><a href='fotos-B/primeiro/cord_dirgrad_segea.jpg'>-Sala102</a>")
 
-utf 
+utf
 ```
 
 ### DEPED, NAI e NUENS
@@ -650,15 +650,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>DEPED, NAI e NEUENS</b>
              <br><a href='fotos-B/primeiro/deped_nai_nuens.jpg'>-Sala106</a>")
 
-utf 
+utf
 ```
 
 ### Secretaria Acadêmica
@@ -667,34 +667,34 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>DERAC</b>
              <br><a href='fotos-B/primeiro/derac.jpg'>-Sala104</a>")
 
-utf 
+utf
 ```
 
 ## 2° andar
 
-### Salas de aula 
+### Salas de aula
 
 ```{r}
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Salas de aula</b>
              <br><a href='fotos-B/segundo/salas_aula_b.jpg'>-Sala20?</a>")
 
-utf 
+utf
 ```
 
 ## 3° andar
@@ -705,32 +705,32 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Laboratório de tecnologiade conversão de energia</b>
              <br><a href='fotos-B/terceiro/lab_tecnologia_b.jpg'>-Sala301</a>")
 
-utf 
+utf
 ```
 
-### Laboratório de química 
+### Laboratório de química
 
 ```{r}
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Laboratório de química</b>
              <br><a href='fotos-B/terceiro/lab_qui_b302.jpg'>-Sala302</a>")
 
-utf 
+utf
 ```
 
 ### Laboratório de química
@@ -739,15 +739,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Laboratório de química</b>
              <br><a href='fotos-B/terceiro/lab_qui_5_b.jpg'>-Sala304</a>")
 
-utf 
+utf
 ```
 
 ### Laboratório de química
@@ -756,15 +756,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.1147880, lat=-23.3074732, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.1147880, lat=-23.3074732, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.1147880, lat=-23.3074732,
              popup="<b>Laboratório de química</b>
              <br><a href='fotos-B/terceiro/lab_qui_4_b.jpg'>-Sala303</a>")
 
-utf 
+utf
 ```
 
 
@@ -777,15 +777,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Laboratório de reagentes químicos e almoxarifado</b>
              <br><a href='fotos-F/reagentes_almoxarifado.jpg'>-Salas 001 e 002</a>")
 
-utf 
+utf
 ```
 
 ### Depósito de materiais e Patrimônio
@@ -794,21 +794,21 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Depósito de materiais e Patrimônio</b>
              <br><a href='fotos-F/deposito_patrimonio.jpg'>-Salas 003 e 004</a>")
 
-utf 
+utf
 ```
 
 <!--# seção-->
 # BLOCO S
 
-## Térreo 
+## Térreo
 
 ### Laboratório de Saneamento
 
@@ -816,15 +816,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Laboraório de Saneamento</b>
              <br><a href='fotos-F/lab-saneamento.jpg'>-Sala004</a>")
 
-utf 
+utf
 ```
 
 ## 1° andar
@@ -835,15 +835,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>PPGEA</b>
              <br><a href='fotos-S/ppgea-s.jpg'>-Sala101</a>")
 
-utf 
+utf
 ```
 
 
@@ -857,15 +857,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de pesquisa</b>
              <br><a href='fotos-L/sinochem.jpg'>-Sala 016</a>")
 
-utf 
+utf
 ```
 
 ### Gorilada
@@ -874,15 +874,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Atlética</b>
              <br><a href='fotos-L/atletica.jpg'>-Sala 027</a>")
 
-utf 
+utf
 ```
 
 ### ATM SPHER
@@ -891,15 +891,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de pesquisa</b>
              <br><a href='fotos-L/atm-spher.jpg'>-Sala 005</a>")
 
-utf 
+utf
 ```
 
 ### baja
@@ -908,15 +908,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de pesquisa</b>
              <br><a href='fotos-L/baja.jpg'>-Sala 02?</a>")
 
-utf 
+utf
 ```
 
 ### DCE, CAENQ e CAAN
@@ -925,15 +925,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Centros Acadêmicos</b>
              <br><a href='fotos-L/eq-amb-dce.jpg'>-Sala 0??</a>")
 
-utf 
+utf
 ```
 
 ### IAPAR
@@ -942,15 +942,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de pesquisa</b>
              <br><a href='fotos-L/iapar.jpg'>-Sala 0??</a>")
 
-utf 
+utf
 ```
 
 ### LAMA
@@ -959,15 +959,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de pesquisa</b>
              <br><a href='fotos-L/lama.jpg'>-Sala 006</a>")
 
-utf 
+utf
 ```
 
 ### LAMBA
@@ -976,15 +976,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de pesquisa</b>
              <br><a href='fotos-L/lamba.jpg'>-Sala 003</a>")
 
-utf 
+utf
 ```
 
 ### LASSPROD
@@ -993,15 +993,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de pesquisa</b>
              <br><a href='fotos-L/lassprod.jpg'>-Sala 0??</a>")
 
-utf 
+utf
 ```
 
 ### CAMEC e CAEMA
@@ -1010,15 +1010,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Centros Acadêmicos</b>
              <br><a href='fotos-L/mec-mate.jpg'>-Sala 025</a>")
 
-utf 
+utf
 ```
 
 ### PET
@@ -1027,15 +1027,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de pesquisa</b>
              <br><a href='fotos-L/pet.jpg'>-Sala 024</a>")
 
-utf 
+utf
 ```
 
 ### Sala de pesquisa
@@ -1044,15 +1044,15 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de pesquisa</b>
              <br><a href='fotos-L/pesquisa08.jpg'>-Sala 008</a>")
 
-utf 
+utf
 ```
 
 ### PPGCEM
@@ -1061,13 +1061,13 @@ utf
 # Initialize and assign m as the leaflet object
 utf <- leaflet() %>%
   # Now add tiles to it
-  addTiles() %>%  
+  addTiles() %>%
   # Setting the middle of where the map should be and the zoom level
   setView(lng=-51.114540, lat=-23.3075632, zoom = 40) %>%
-  # Now, add a marker with a popup, 
-  addMarkers(lng=-51.114540, lat=-23.3075632, 
+  # Now, add a marker with a popup,
+  addMarkers(lng=-51.114540, lat=-23.3075632,
              popup="<b>Sala de pesquisa</b>
              <br><a href='fotos-L/ppgcem.jpg'>-Sala 0??</a>")
 
-utf 
+utf
 ```
