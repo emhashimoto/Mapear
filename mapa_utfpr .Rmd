@@ -35,7 +35,7 @@ library(dplyr)
 ```
 
 <!--# seção-->
-# BLOCO A - teste
+# BLOCO A
 
 <!--# Sub-seção-->
 ## Térreo
